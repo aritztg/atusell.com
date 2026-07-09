@@ -31,45 +31,45 @@ design, API integration (REST, SOAP, XML-RPC).
 
 ## Professional Experience 💼
 
-**Technical Engineering Manager** · HelioVolta / Solargrade · Remote · *2023-Present*
+**Technical Engineering Manager** · HelioVolta / Solargrade · Remote · *2023-Present*<br>
 Leading and mentoring a small multidisciplinary team of backend and frontend engineers,
 and helping shape the architecture and delivery of a mobile application for in-field
 incident management and reporting for commercial solar plant operators. Working across
 the technical stack (Python, Django, Angular, Kotlin, Obj-C) and the cloud infrastructure
 and deployment pipelines on Azure.
 
-**Fullstack & Data Scraping Specialist** · Freelance · Remote · *2012-Present*
+**Fullstack & Data Scraping Specialist** · Freelance · Remote · *2012-Present*<br>
 Consulting and full-stack development, mostly around custom data-extraction and
 processing pipelines. A mix of data-harvesting projects with a focus on cleaning,
 normalization and structuring, plus transformation pipelines for content migrations
 from obfuscated sites and undocumented APIs.
 
-**Senior Data Extraction Engineer** · OTA Insight · Ghent, Belgium · *2022-2023*
+**Senior Data Extraction Engineer** · OTA Insight · Ghent, Belgium · *2022-2023*<br>
 Part of a specialist team maintaining and scaling a network of web crawlers running
 against diverse and dynamic sites. Worked on custom Scrapy middleware for pub/sub queue
 management, anti-bot countermeasures, proxy/header rotation, and metrics and real-time
 alerting tooling.
 
-**CTO (Hands on)** · CymitQuímica · Barcelona, Spain · *2017-2022*
+**CTO (Hands on)** · CymitQuímica · Barcelona, Spain · *2017-2022*<br>
 Helped design and build a modular, automated data-extraction system that scraped and
 updated hundreds of thousands of chemical product records daily from dozens of
 international suppliers. Took part in a migration from legacy systems (Java, PHP, multiple
 SQL DBs) to a unified Python/PostgreSQL stack, including an ERP migration to Odoo and a
 new Django e-commerce platform.
 
-**Lead Frontend Engineer & Co-founder** · Timtul · Barcelona, Spain · *2015-2017*
+**Lead Frontend Engineer & Co-founder** · Timtul · Barcelona, Spain · *2015-2017*<br>
 Co-founded and helped build a full-stack platform for associations (still in use today)
 that lets administrators manage thousands of members, their responsive website and their
 communication processes. Built the core web and mail builder tools on a Django backend
 with a custom jQuery-based client framework.
 
-**Content Manager / Software Engineer** · BMAT · Barcelona, Spain · *2011-2014*
+**Content Manager / Software Engineer** · BMAT · Barcelona, Spain · *2011-2014*<br>
 Worked on a high-volume data-processing framework handling the daily integration of
 thousands of new audio files and metadata. Focused on third-party data integration across
 various standards (XML, T/CSV, DDEX) and transfer channels (FTP, REST/JSON, SOAP,
 XML-RPC), plus regular web scraping.
 
-**Web Developer** · UPC · Barcelona, Spain · *2006-2011*
+**Web Developer** · UPC · Barcelona, Spain · *2006-2011*<br>
 Developed web projects for the university's Computer Science department, mostly around
 importing, handling and converting datasets from different departments.
 
