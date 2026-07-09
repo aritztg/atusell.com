@@ -77,12 +77,9 @@ importing, handling and converting datasets from different departments.
 
 ## Education 🎓
 
-**Executive Master's in Innovation** · EOI, Madrid · *2012*
-Leading innovation projects, managing the innovation lifecycle and developing business
+- **Executive Master's in Innovation** · EOI, Madrid · *2012* - Leading innovation projects, managing the innovation lifecycle and developing business
 models for the digital market.
-
-**Bachelor's in Telecommunications** · UPC, Barcelona · *2005-2009*
-Specialization in Sound & Image Signal Processing, focused on multimedia and business
+- **Bachelor's in Telecommunications** · UPC, Barcelona · *2005-2009* - Specialization in Sound & Image Signal Processing, focused on multimedia and business
 applications. Final thesis: a dynamic web application for abstract resource-booking
 management, still used across campus departments.
 
