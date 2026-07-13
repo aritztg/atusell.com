@@ -1,0 +1,23 @@
+{
+  // Launch a static server for atusell.com from the VS Code debugger.
+  // Requires the Python extension (ms-python.python).
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Serve atusell.com (:8000)",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "http.server",
+      "args": ["8000"],
+      // Always serve from the repo root so the site's absolute /assets/... paths resolve.
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      // Open the browser automatically once the server reports it is listening.
+      "serverReadyAction": {
+        "pattern": "Serving HTTP on .+ port ([0-9]+)",
+        "uriFormat": "http://localhost:%s/",
+        "action": "openExternally"
+      }
+    }
+  ]
+}
