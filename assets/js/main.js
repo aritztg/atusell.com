@@ -2,6 +2,24 @@
 (function () {
   "use strict";
 
+  // --- Background: floating spark particles (styled in assets/css/stars.css) ---
+  // 140 particles injected here so every page gets the effect without markup edits.
+  (function () {
+    if (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    var layer = document.createElement("div");
+    layer.className = "stars";
+    layer.setAttribute("aria-hidden", "true");
+    for (var i = 0; i < 140; i++) {
+      var container = document.createElement("div");
+      container.className = "circle-container";
+      var circle = document.createElement("div");
+      circle.className = "circle";
+      container.appendChild(circle);
+      layer.appendChild(container);
+    }
+    document.body.insertBefore(layer, document.body.firstChild);
+  })();
+
   // --- Mobile navigation toggle ---
   var toggle = document.getElementById("menu-toggle");
   var menu = document.getElementById("mobile-menu");
