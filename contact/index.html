@@ -17,26 +17,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
   <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            navy: '#04162c', 'navy-hover': '#02172a',
-            gold: '#A68966', 'gold-hover': '#e2c19b',
-            cream: '#F9F8F6', ink: '#1a1c1b', slate: '#4A5D73',
-            sec: '#44474d', muted: '#74777e', line: '#E2E2E2', band: '#f4f3f1', onnavy: '#b6c7e5'
-          },
-          fontFamily: {
-            display: ['"Playfair Display"', 'serif'],
-            sans: ['"Hanken Grotesk"', 'ui-sans-serif', 'system-ui', 'sans-serif']
-          },
-          boxShadow: { card: '0 4px 12px rgba(26,43,66,0.05)' },
-          maxWidth: { container: '1140px' }
-        }
-      }
-    }
-  </script>
+  <script src="/assets/js/tailwind.config.js"></script>
   <style type="text/tailwindcss">
     @layer components {
       .nav-link   { @apply text-[14px] font-semibold tracking-[0.05em] text-sec hover:text-gold transition-colors; }
